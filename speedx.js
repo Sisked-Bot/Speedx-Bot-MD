@@ -101,7 +101,7 @@ opcion = '1'
 if (!methodCodeQR && !methodCode && !fs.existsSync(`./${authFile}/creds.json`)) {
 do {
 let lineM = '⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》'
-opcion = await question('Seleccione una opción:\n1. Con código QR\n2. Con código de texto de 8 dígitos\n---> ')
+opcion = await question('Selecciona una opción:\n1. Con código QR\n2. Con código de texto de 8 dígitos\n---> ')
 
 if (!/^[1-2]$/.test(opcion)) {
 console.log('Por favor, seleccione solo 1 o 2.\n')
@@ -113,7 +113,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['Sisked Bot', 'Safari', '2.0.0'] : methodCodeQR ? ['Sisked Bot', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '110.0.5585.95'],
+browser: opcion == '1' ? ['Speedx Bot', 'Safari', '2.0.0'] : methodCodeQR ? ['Speedx Bot', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '110.0.5585.95'],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
