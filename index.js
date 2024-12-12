@@ -1,4 +1,4 @@
-console.log('✯ Iniciando ✯')
+console.log('Speedx Go ☆')
 
 import { join, dirname } from 'path'
 import { createRequire } from 'module';
@@ -22,7 +22,7 @@ const rl = createInterface(process.stdin, process.stdout)
 const app = express()
 const port = process.env.PORT || 8080;
 
-say('Sofi\nBot', {
+say('Speedx\nBot', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
@@ -82,4 +82,4 @@ async function start(files) {
   }
 }
 
-start(['starlights.js'])
+start(['speedx.js'])
