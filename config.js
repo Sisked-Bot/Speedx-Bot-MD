@@ -10,11 +10,7 @@ import moment from 'moment-timezone'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-  ['50765609370', '𝑺𝑶𝑭𝑰', true],
-  ['584123989549', 'Sisked', true],
-  ['50765609370'],
-  ['50765609370'],
-  ['584123989549']
+  ['584123989549', '@𝚂𝚒𝚜𝚔𝚎𝚍', true],
 ]
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -24,24 +20,25 @@ global.prems = []
    
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = `𝑺𝑶𝑭𝑰 - 𝑩𝑶𝑻`
-global.author = '{\n "bot": {\n   "name": "𝑺𝑶𝑭𝑰 - 𝑩𝑶𝑻",\n     "author": "𝑺𝑶𝑭𝑰",\n   "status_bot": "active"\n }\n}'
-global.wait = '𝑺𝑶𝑭𝑰 - 𝑩𝑶𝑻'
-global.botname = '𝑺𝑶𝑭𝑰 - 𝑩𝑶𝑻'
-global.textbot = `WhatsApp Bot Sofi 👸🏻`
-global.listo = 'Finalizado ✯'
-global.namechannel = '𝑺𝑰𝑺𝑲𝑬𝑫 𝑩𝑶𝑻'
+global.packname = `𝚂𝚙𝚎𝚎𝚍𝚡 𝙱𝚘𝚝 𝙼𝙳`
+global.author = '@𝚂𝚒𝚜𝚔𝚎𝚍'
+global.wait = '𝚂𝚙𝚎𝚎𝚍𝚡 𝙱𝚘𝚝'
+global.botname = '𝚂𝚙𝚎𝚎𝚍𝚡 𝙱𝚘𝚝 𝙼𝙳'
+global.textbot = `𝚂𝚙𝚎𝚎𝚍𝚡 𝙵𝚞𝚕𝚕`
+global.listo = '𝚂𝚙𝚎𝚎𝚍𝚡 𝙶𝚘'
+global.namechannel = '「 𝚃𝚎𝚊𝚖 𝚂𝚙𝚎𝚎𝚍𝚡 ♮ 」'
 global.baileys = '@whiskeysockets/baileys'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.catalogo = fs.readFileSync('./storage/img/catalogo.png')
-global.miniurl = fs.readFileSync('./storage/img/siskedurl.jpg')
+global.speedx = fs.readFileSync('./storage/img/speedx.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.group = 'https://chat.whatsapp.com/JultL94aPtb5AzIeeuDvpX'
-global.canal = 'https://whatsapp.com/channel/0029VamyjBXJuyACXCuuHm3l'
+global.ig = 'https://www.instagram.com/sisked_1'
+global.group = 'https://chat.whatsapp.com/FTZetLUHIAvAazSVLx4VDD'
+global.canal = 'https://whatsapp.com/channel/0029Vb00Wbj3rZZl1njhfw1K'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
