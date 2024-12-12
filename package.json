@@ -1,6 +1,6 @@
 {
-  "name": "Sofi-Bot",
-  "version": "5.0.0",
+  "name": "Speedx Bot",
+  "version": "6.0.0",
   "description": "Super WhatsApp Bot Multi Device",
   "main": "index.js",
   "type": "module",
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Sisked-Bot/Sofi-bot",
   "author": {
-    "name": "Sisked"
+    "name": "@Sisked"
   },
   "repository": {
     "type": "git",
