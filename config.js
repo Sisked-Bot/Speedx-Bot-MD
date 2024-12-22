@@ -32,11 +32,10 @@ global.baileys = '@whiskeysockets/baileys'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.catalogo = fs.readFileSync('./storage/img/catalogo.png')
-global.speedx = fs.readFileSync('./storage/img/siskedurl.jpg')
+global.siskedurl = fs.readFileSync('./storage/img/siskedurl.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.ig = 'https://www.instagram.com/sisked_1'
 global.group = 'https://chat.whatsapp.com/FTZetLUHIAvAazSVLx4VDD'
 global.canal = 'https://whatsapp.com/channel/0029Vb00Wbj3rZZl1njhfw1K'
 
