@@ -4,48 +4,48 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 
 let tags = {
-  'main': '𝘐𝘯𝘧𝘰 📚',
-  'search': '𝘉𝘶𝘴𝘲𝘶𝘦𝘥𝘢𝘴 🔎',
-  'game': '𝘑𝘶𝘦𝘨𝘰𝘴 🎮',
-  'group': '𝘎𝘳𝘶𝘱𝘰𝘴 👥',
-  'freefire': 'Versus 📌'
-  'rg': '𝘙𝘦𝘨𝘪𝘴𝘵𝘳𝘰',
-  'sticker': '𝘚𝘵𝘪𝘤𝘬𝘦𝘳𝘴 🏞',
-  'img': '𝘐𝘮𝘢́𝘨𝘦𝘯𝘦𝘴 📸',
-  'logo': '𝘓𝘰𝘨𝘰 - 𝘮𝘢𝘬𝘦𝘳 🎨',
-  'nable': '𝘖𝘯 / 𝘖𝘧𝘧 📴', 
-  'downloader': '𝘋𝘦𝘴𝘤𝘢𝘳𝘨𝘢𝘴 📥',
-  'tools': '𝘏𝘦𝘳𝘳𝘢𝘮𝘪𝘦𝘯𝘵𝘢𝘴 🔧',
-  'fun': '𝘋𝘪𝘷𝘦𝘳𝘴𝘪𝘰́𝘯 🎲',
-  'nsfw': '𝘕𝘴𝘧𝘸 🔞', 
-  'owner': '𝘊𝘳𝘦𝘢𝘥𝘰𝘳 😺', 
-  'audio': '𝘈𝘶𝘥𝘪𝘰𝘴 🔉', 
-  'advanced': '𝘈𝘷𝘢𝘯𝘻𝘢𝘥𝘰 💠',
-  'anime': '𝘈𝘯𝘪𝘮𝘦 🌸',
-  'serbot': '𝘚𝘶𝘣 𝘉𝘰𝘵𝘴 🤖',
-  'rpg': '𝘙𝘗𝘎 🌠',
+  'main': 'Info 📚',
+  'search': 'Busquedas 🔎',
+  'game': 'Juegos 🎮',
+  'serbot': 'Sub Bots 🤖',
+  'rpg': 'RPG 🌠',
+  'rg': 'Registro 📁',
+  'sticker': 'Stickers 🏞',
+  'img': 'Imágenes 📸',
+  'group': 'Grupos 👥',
+  'logo': 'Logo - maker 🎨',
+  'nable': 'On / Off 📴', 
+  'downloader': 'Descargas 📥',
+  'tools': 'Herramientas 🔧',
+  'fun': 'Diversión 🎲',
+  'nsfw': 'Nsfw 🔞', 
+  'owner': 'Creador 😺', 
+  'audio': 'Audios 🔉', 
+  'advanced': 'Avanzado 💠',
+  'freefire': 'Free Fire 📌',
+  'anime': 'Anime 👑',
 }
 
 const defaultMenu = {
   before: `
-𝑺𝑶𝑭𝑰 - 𝑩𝑶𝑻
+*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷*
 
-“ hello *%name*, Cómo se encuentra el día de hoy? ”
+“ Hola *%name*, Este Es El Menu De 𝙎𝘼𝙉𝙏 𝘽𝙊𝙏 ”
 
-*╭━〔 *Info User* 〕*
-*┃➤* *👤 Nombre ∙* %name
-*┃➤* *🍬 Dulces ∙* %limit
-*┃➤* *⭐ XP ∙* %totalexp
-*┃➤* *⚡ Nivel ∙* %level
-╰━━━━━━━━━━━━
+╭──⬣「 *Info User* 」⬣
+│  ≡◦ *👻 Nombre ∙* %name
+│  ≡◦ *🍬 Dulces ∙* %limit
+│  ≡◦ *😼 XP ∙* %totalexp
+│  ≡◦ *👑 Nivel ∙* %level
+╰──⬣
 %readmore
-〕〔 〕〔 〕〔 〕〔 〕〔 〕〔 〕〔 〕〔 
+*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷*
 
-\t\t\t𝑺 𝑶 𝑭 𝑰 - 𝐌 𝐄 𝐍 𝐔́
+\t\t\t*L I S T A  -  M E N Ú S*
 `.trimStart(),
-header: '*╭━〔 *%category* 〕*',
-body: '*┃➤* *%cmd*\n',
-footer: '╰━━━━━━━━━━━━\n',
+header: '╭──⚔️「 *%category* 」⚡',
+body: '│  ≡◦ *%cmd*\n',
+footer: '╰──⚔️\n',
 after: '',
 }
 
@@ -159,6 +159,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 handler.help = ['menu']
 handler.tags = ['main']
 handler.command = ['menu', 'help', 'menú', 'comandos', 'allmenu', 'menucompleto', 'funciones'] 
+handler.register = true 
 export default handler
 
 const more = String.fromCharCode(8206)
@@ -169,4 +170,4 @@ function clockString(ms) {
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
-  }
+}
