@@ -7,9 +7,9 @@ let img = catalogo
     contextInfo: {
     	isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: "120363328554424977@newsletter",
+      newsletterJid: "120363299667225383@newsletter",
       serverMessageId: 100,
-      newsletterName: '✨Twins bots✨💚❤️🩵',
+      newsletterName: '「  𝑺𝑰𝑺𝑲𝑬𝑫 - 𝑪𝑯𝑨𝑵𝑬𝑳  」',
     },
 	    externalAdReply: {
 				    showAdAttribution: true,
@@ -50,17 +50,17 @@ global.rcanal = {
 contextInfo: {
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
-newsletterJid: "120363328554424977@newsletter",
+newsletterJid: "120363299667225383@newsletter",
 serverMessageId: 100,
-newsletterName: '✨Twins bots✨💚❤️🩵',
+newsletterName: '「  𝑺𝑰𝑺𝑲𝑬𝑫 - 𝑪𝑯𝑨𝑵𝑬𝑳  」',
 },
 externalAdReply: { 
 showAdAttribution: true,
-title: '𝑺𝑶𝑭𝑰 - 𝑩𝑶𝑻',
-body: 'Sofi La Mejor',
+title: '𝙎𝙄𝙎𝙆𝙀𝘿 𝘽𝙊𝙏 ',
+body: '@Sisked Good',
 previewType: "PHOTO",
 thumbnailUrl: 'https://i.ibb.co/4jft6vs/file.jpg',
-sourceUrl: 'https://www.instagram.com/josssi_bot.ff',
+sourceUrl: 'https://www.instagram.com/sisked_1',
 mediaType: 1,
 renderLargerThumbnail: false
 },},}
