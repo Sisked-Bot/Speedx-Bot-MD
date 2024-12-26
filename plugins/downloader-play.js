@@ -24,7 +24,7 @@ const texto1 = `𝙔𝙊𝙐𝙏𝙐𝘽𝙀 𝙋𝙇𝘼𝙔
 
 > _*Enviando audio...*_`.trim();
 
-await conn.sendFile(m.chat, yt_play[0].thumbnail, 'error.jpg', texto1, m, null, rcanal);
+await conn.sendFile(m.chat, yt_play[0].thumbnail, 'error.jpg', texto1, m);
 try {
 const apiUrl = `https://deliriussapi-oficial.vercel.app/download/ytmp4?url=${encodeURIComponent(yt_play[0].url)}`;
 const apiResponse = await fetch(apiUrl);
@@ -85,7 +85,7 @@ const texto1 = `𝙔𝙊𝙐𝙏𝙐𝘽𝙀 𝙋𝙇𝘼𝙔
 
 > _*Enviando video...*_`.trim();
 
-await conn.sendFile(m.chat, yt_play[0].thumbnail, 'error.jpg', texto1, m, null, rcanal);
+await conn.sendFile(m.chat, yt_play[0].thumbnail, 'error.jpg', texto1, m);
 try {
 const apiUrl = `https://deliriussapi-oficial.vercel.app/download/ytmp4?url=${encodeURIComponent(yt_play[0].url)}`;
 const apiResponse = await fetch(apiUrl);
@@ -159,7 +159,7 @@ const texto1 = `𝙔𝙊𝙐𝙏𝙐𝘽𝙀 𝙋𝙇𝘼𝙔
 
 > _*Enviando su audio en documento.*_`.trim();
 
-await conn.sendFile(m.chat, yt_play[0].thumbnail, 'error.jpg', texto1, m, null, rcanal);
+await conn.sendFile(m.chat, yt_play[0].thumbnail, 'error.jpg', texto1, m);
 try {
 const apiUrl = `https://deliriussapi-oficial.vercel.app/download/ytmp4?url=${encodeURIComponent(yt_play[0].url)}`;
 const apiResponse = await fetch(apiUrl);
@@ -219,7 +219,7 @@ const texto1 = `𝙔𝙊𝙐𝙏𝙐𝘽𝙀 𝙋𝙇𝘼𝙔
 
 > _*Enviando su video en documento.*_`.trim();
 
-await conn.sendFile(m.chat, yt_play[0].thumbnail, 'error.jpg', texto1, m, null, rcanal);
+await conn.sendFile(m.chat, yt_play[0].thumbnail, 'error.jpg', texto1, m);
 try {
 const apiUrl = `https://deliriussapi-oficial.vercel.app/download/ytmp4?url=${encodeURIComponent(yt_play[0].url)}`;
 const apiResponse = await fetch(apiUrl);
