@@ -20,13 +20,13 @@ global.prems = []
    
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = `𝚂𝚙𝚎𝚎𝚍𝚡 𝙱𝚘𝚝 𝙼𝙳`
-global.author = '@𝚂𝚒𝚜𝚔𝚎𝚍'
-global.wait = '𝚂𝚙𝚎𝚎𝚍𝚡 𝙱𝚘𝚝'
-global.botname = '𝚂𝚙𝚎𝚎𝚍𝚡 𝙱𝚘𝚝 𝙼𝙳'
+global.packname = `𝙊𝙉𝙔𝙓 𝘽𝙊𝙏`
+global.author = '𝙊𝙉𝙔𝙓 𝘽𝙊𝙏'
+global.wait = '𝙊𝙉𝙔𝙓 𝘽𝙊𝙏'
+global.botname = '𝙊𝙉𝙔𝙓 𝘽𝙊𝙏'
 global.textbot = `𝚂𝚙𝚎𝚎𝚍𝚡 𝙵𝚞𝚕𝚕`
 global.listo = '𝚂𝚙𝚎𝚎𝚍𝚡 𝙶𝚘'
-global.namechannel = '「 𝚃𝚎𝚊𝚖 𝚂𝚙𝚎𝚎𝚍𝚡 ♮ 」'
+//global.namechannel = '「 𝚃𝚎𝚊𝚖 𝚂𝚙𝚎𝚎𝚍𝚡 ♮ 」'
 global.baileys = '@whiskeysockets/baileys'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -36,8 +36,8 @@ global.siskedurl = fs.readFileSync('./storage/img/siskedurl.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.group = 'https://chat.whatsapp.com/FTZetLUHIAvAazSVLx4VDD'
-global.canal = 'https://whatsapp.com/channel/0029Vb00Wbj3rZZl1njhfw1K'
+//global.group = 'https://chat.whatsapp.com/FTZetLUHIAvAazSVLx4VDD'
+//global.canal = 'https://whatsapp.com/channel/0029Vb00Wbj3rZZl1njhfw1K'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
