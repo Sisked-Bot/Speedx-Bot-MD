@@ -24,8 +24,8 @@ global.packname = `𝙊𝙉𝙔𝙓 𝘽𝙊𝙏`
 global.author = '𝙊𝙉𝙔𝙓 𝘽𝙊𝙏'
 global.wait = '𝙊𝙉𝙔𝙓 𝘽𝙊𝙏'
 global.botname = '𝙊𝙉𝙔𝙓 𝘽𝙊𝙏'
-global.textbot = `𝚂𝚙𝚎𝚎𝚍𝚡 𝙵𝚞𝚕𝚕`
-global.listo = '𝚂𝚙𝚎𝚎𝚍𝚡 𝙶𝚘'
+global.textbot = `𝙊𝙉𝙔𝙓 𝘽𝙊𝙏 𝘼 𝙏𝙐𝙎 𝙊𝙍𝘿𝙀𝙉𝙀𝙎`
+global.listo = '𝙊𝙉𝙔𝙓 𝘽𝙊𝙏  𝙏𝙊𝘿𝙊 𝙇𝙄𝙎𝙏𝙊!'
 //global.namechannel = '「 𝚃𝚎𝚊𝚖 𝚂𝚙𝚎𝚎𝚍𝚡 ♮ 」'
 global.baileys = '@whiskeysockets/baileys'
 
