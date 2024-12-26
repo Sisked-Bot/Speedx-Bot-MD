@@ -17,7 +17,7 @@ export async function before(m, {conn, participants, groupMetadata}) {
       await conn.sendAi(m.chat, botname, textbot, welcome, img, img, canal)
     } else {
       let bienvenida = `┌─★ 𝙊𝙉𝙔𝙓 𝘽𝙊𝙏  \n│「 Bienvenido 」\n└┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │✑  Bienvenido a\n   │✑  ${groupMetadata.subject}\n   │✑  Descripción:\n${groupMetadata.desc || 'sin descripción'}\n   └───────────────┈ ⳹`
-      await conn.sendAi(m.chat, botname, textbot, bienvenida, img, img, canal)
+      await conn.sendAi(m.chat, botname, textbot, bienvenida, img, img)
     }
   }
   
@@ -28,10 +28,10 @@ export async function before(m, {conn, participants, groupMetadata}) {
         .replace('@user', () => user)
         .replace('@group', () => groupMetadata.subject)
         .replace('@desc', () => groupMetadata.desc || 'sin descripción');
-      await conn.sendAi(m.chat, botname, textbot, bye, img, img, canal)
+      await conn.sendAi(m.chat, botname, textbot, bye, img, img)
     } else {
       let bye = `┌─★ 𝙊𝙉𝙔𝙓 𝘽𝙊𝙏  \n│「 BAYY 👋 」\n└┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │✑  Largate\n   │✑ Jamás te quisimos aquí\n   └───────────────┈ ⳹`
-      await conn.sendAi(m.chat, botname, textbot, bye, img, img, canal)
+      await conn.sendAi(m.chat, botname, textbot, bye, img, img)
     }
   }
   
@@ -42,9 +42,9 @@ export async function before(m, {conn, participants, groupMetadata}) {
         .replace('@user', () => user)
         .replace('@group', () => groupMetadata.subject)
         .replace('@desc', () => groupMetadata.desc || 'sin descripción');
-      await conn.sendAi(m.chat, botname, textbot, bye, img, img, canal)
+      await conn.sendAi(m.chat, botname, textbot, bye, img, img)
     } else {
       let kick = `┌─★ 𝙊𝙉𝙔𝙓 𝘽𝙊𝙏  \n│「 BAYY 👋 」\n└┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │✑  Largate\n   │✑ Jamás te quisimos aquí\n   └───────────────┈ ⳹`
-      await conn.sendAi(m.chat, botname, textbot, kick, img, img, canal)
+      await conn.sendAi(m.chat, botname, textbot, kick, img, img)
     }
 }}
