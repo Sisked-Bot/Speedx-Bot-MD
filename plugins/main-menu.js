@@ -7,11 +7,11 @@ let tags = {
   'main': 'Info 📚',
   'search': 'Busquedas 🔎',
   'game': 'Juegos 🎮',
-  'serbot': 'Sub Bots 🤖',
   'rpg': 'RPG 🌠',
   'rg': 'Registro 📁',
   'sticker': 'Stickers 🏞',
   'img': 'Imágenes 📸',
+  'freefire': 'Free Fire 📌',
   'group': 'Grupos 👥',
   'logo': 'Logo - maker 🎨',
   'nable': 'On / Off 📴', 
@@ -22,7 +22,6 @@ let tags = {
   'owner': 'Creador 😺', 
   'audio': 'Audios 🔉', 
   'advanced': 'Avanzado 💠',
-  'freefire': 'Free Fire 📌',
   'anime': 'Anime 👑',
 }
 
