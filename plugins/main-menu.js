@@ -29,7 +29,9 @@ const defaultMenu = {
   before: `
 *꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷*
 
-“ Hola *%name*, Este Es El Menu De 𝙊𝙉𝙔𝙓 𝘽𝙊𝙏 ”
+“ _*HOLA *%name*, ESTE ES EL MENU DE ONYX BOT*_ "
+
+_*EN QUE PUEDO SERVIRTE!*_! ”
 
 ╭──⬣「 *Info User* 」⬣
 │  ≡◦ *👻 Nombre ∙* %name
