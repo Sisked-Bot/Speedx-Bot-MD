@@ -27,7 +27,7 @@ global.wait = '𝙊𝙉𝙔𝙓 𝘽𝙊𝙏'
 global.botname = '𝙊𝙉𝙔𝙓 𝘽𝙊𝙏'
 global.textbot = `𝙊𝙉𝙔𝙓 𝘽𝙊𝙏 𝘼 𝙏𝙐𝙎 𝙊𝙍𝘿𝙀𝙉𝙀𝙎`
 global.listo = '𝙊𝙉𝙔𝙓 𝘽𝙊𝙏  𝙏𝙊𝘿𝙊 𝙇𝙄𝙎𝙏𝙊!'
-//global.namechannel = '「 𝚃𝚎𝚊𝚖 𝚂𝚙𝚎𝚎𝚍𝚡 ♮ 」'
+global.namechannel = '「  𝑺𝑰𝑺𝑲𝑬𝑫 - 𝑪𝑯𝑨𝑵𝑬𝑳  」'
 global.baileys = '@whiskeysockets/baileys'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -37,8 +37,8 @@ global.siskedurl = fs.readFileSync('./storage/img/siskedurl.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-//global.group = 'https://chat.whatsapp.com/FTZetLUHIAvAazSVLx4VDD'
-//global.canal = 'https://whatsapp.com/channel/0029Vb00Wbj3rZZl1njhfw1K'
+global.group = 'https://chat.whatsapp.com/CTaspTXla9T1zA83m6ZKPe'
+global.canal = 'https://whatsapp.com/channel/0029Vak6H9l3GJP4FJH5063R'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
